@@ -9,7 +9,7 @@ class Bank
 		return 13;
 	}
 }
-class IOB extends Bank
+class SBI extends Bank
 {
 	int roi()
 	{
@@ -34,7 +34,7 @@ public class OverridingDemo {
 		Axis ax = new Axis();
 		System.out.println(ax.roi());
 		
-		IOB io = new IOB();
+		SBI io = new SBI();
 		System.out.println(io.roi());
 
 	}
